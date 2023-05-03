@@ -1,0 +1,82 @@
+$superImportant:  rgb(58, 27, 39);
+$important: rgb(84, 25, 51);
+$needstobedone: rgb(132, 68, 94);
+$couldwait: rgb(174, 99, 128);
+$green1: rgb(64, 100, 110); 
+$green2: rgb(170, 188, 193);
+
+form {
+  width: 620px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  box-sizing: border-box;  
+  border-radius: 8px;
+  textarea{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+  }
+  select{
+    height: 32px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 6px;
+  }  
+  label:last-of-type{
+    float: right;
+  }
+  small{
+    margin-top: 10px;
+    font-weight: 600;
+    color: $important;
+  }  
+  input {
+    height: 28px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 6px;
+    display: inline-block;
+    padding: 0 6px;
+  }
+  .incorrect{
+    color: $couldwait;
+  }
+  input[type=submit]{
+    width: 100%;
+    cursor: pointer;    
+    color: white;
+    margin: 20px 0 0 0;
+    height: 30px;
+  }
+}
+.addNewTaskForm{
+  background-color: $green2; 
+  ;
+  input[type=submit]{
+    background-color: $green1; 
+    ; 
+  }
+}
+
+.loginForm{
+  background-color: $couldwait;
+  color: white;
+  input[type=submit]{
+    background-color: $important; 
+  }
+}
+
+.signupForm{
+  background-color: $couldwait;
+  color: white;
+  input[type=submit]{
+    background-color: $important;
+  }
+}

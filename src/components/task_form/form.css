@@ -1,0 +1,74 @@
+form {
+  width: 620px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+form textarea {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+form select {
+  height: 32px;
+  width: 190px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 6px;
+}
+form label:last-of-type {
+  float: right;
+}
+form small {
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(84, 25, 51);
+}
+form input {
+  height: 28px;
+  width: 190px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 6px;
+  display: inline-block;
+  padding: 0 6px;
+}
+form .incorrect {
+  color: rgb(174, 99, 128);
+}
+form input[type=submit] {
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  margin: 20px 0 0 0;
+  height: 30px;
+}
+
+.addNewTaskForm {
+  background-color: rgb(170, 188, 193);
+}
+.addNewTaskForm input[type=submit] {
+  background-color: rgb(64, 100, 110);
+}
+
+.loginForm {
+  background-color: rgb(174, 99, 128);
+  color: white;
+}
+.loginForm input[type=submit] {
+  background-color: rgb(84, 25, 51);
+}
+
+.signupForm {
+  background-color: rgb(174, 99, 128);
+  color: white;
+}
+.signupForm input[type=submit] {
+  background-color: rgb(84, 25, 51);
+}/*# sourceMappingURL=form.css.map */

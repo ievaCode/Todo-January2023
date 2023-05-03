@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "abc",
+      "username": "ieva",
+      "password": "pieva"
+    },
+    {
+      "id": "def",
+      "username": "lina",
+      "password": "anil"
+    },
+    {
+      "id": "ghi",
+      "username": "tomas",
+      "password": "samot"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "aaaaaaaa",
+      "deadline": 1674950400000,
+      "importance": "needs to be done",
+      "id": "05DJo58XT3I7sA0mA1BJ0",
+      "done": false,
+      "userId": "abc"
+    },
+    {
+      "task": "buy red dress",
+      "deadline": 1675296000000,
+      "importance": "could wait",
+      "id": "jArRS34Ba2w2Rdoh-RhTT",
+      "done": false,
+      "userId": "abc"
+    },
+    {
+      "task": "wash the floor",
+      "deadline": 1675382400000,
+      "importance": "needs to be done",
+      "id": "8U3QQfbFyMhKtdCqDwiMh",
+      "done": false,
+      "userId": "abc"
+    },
+    {
+      "task": "ggggg",
+      "deadline": 1675296000000,
+      "importance": "important",
+      "id": "DI9YoM1IHILtICsISxN-e",
+      "done": false,
+      "userId": "ghi"
+    },
+    {
+      "task": "fgggf",
+      "deadline": 1675814400000,
+      "importance": "needs to be done",
+      "id": "diAeJsdF0o_sxKSY9tEIb",
+      "done": false,
+      "userId": "ghi"
+    },
+    {
+      "task": "gfgggggggggggggggg",
+      "deadline": 1675987200000,
+      "importance": "could wait",
+      "id": "onELotbNfyDktzrMGoeEE",
+      "done": false,
+      "userId": "ghi"
+    },
+    {
+      "task": "sssssssssss",
+      "deadline": 1677715200000,
+      "importance": "important",
+      "id": "JvWcJ-qPJJk_ppLFe2ZFc",
+      "done": false,
+      "userId": "ghi"
+    },
+    {
+      "task": "Enjoy!",
+      "deadline": 1675728000000,
+      "importance": "super important",
+      "id": "G4M_hTTWr6S3gGmEAcf9h",
+      "done": false,
+      "userId": "abc"
+    },
+    {
+      "task": "Check how this works and upload to gitHub",
+      "deadline": 1684281600000,
+      "importance": "important",
+      "id": "73_h9ttCD_R8rjb0KVHNO",
+      "done": false,
+      "userId": "def"
+    },
+    {
+      "task": "Correct time calculation and decide on what happens when deadline aproaches or is passed.",
+      "deadline": "",
+      "importance": "needs to be done",
+      "id": "__Lr1F1LRE2Q1LghHhsnm",
+      "done": false,
+      "userId": "def"
+    },
+    {
+      "task": "Add sorting by importance and by date",
+      "deadline": "",
+      "importance": "needs to be done",
+      "id": "xwfmzJQKd3iFqPKzCYIVM",
+      "done": false,
+      "userId": "def"
+    },
+    {
+      "task": "resize for mobile!",
+      "deadline": 1683504000000,
+      "importance": "could wait",
+      "id": "ulYUpfEPT0OdhunIP5YWB",
+      "done": false,
+      "userId": "def"
+    },
+    {
+      "task": "Correct edit modal. It's too transparent and the button name should be changed.",
+      "deadline": 1684195200000,
+      "importance": "could wait",
+      "id": "BC1FzFVf2fky_fnJYErGO",
+      "done": false,
+      "userId": "def"
+    },
+    {
+      "task": "Stick the name and this add task table??? maybe? With a possibility to hide it? The task should be scrollable.",
+      "deadline": 1684713600000,
+      "importance": "super important",
+      "id": "7R1M7P30LHi6Xn3dtXV3e",
+      "done": false,
+      "userId": "def"
+    }
+  ]
+}

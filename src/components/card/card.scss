@@ -1,0 +1,99 @@
+$superImportant:  rgb(58, 27, 39);
+$important: rgb(84, 25, 51);
+$needstobedone: rgb(132, 68, 94);
+$couldwait: rgb(174, 99, 128);
+$green1: rgb(64, 100, 110); 
+$green2: rgb(170, 188, 193);
+
+.taskCard{
+  width: 620px;  
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+  .importance{
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 0 0;
+    &.superimportant{
+      background-color: $superImportant;
+     }
+     &.important{
+       background-color: $important;
+     }
+     &.needstobedone{
+       background-color: $needstobedone;
+     }
+     &.couldwait{
+       background-color: $couldwait
+     }
+  }
+  .mainWrap{
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+  }
+  .strikeOutfalse{
+    display: none;
+  }
+  .strikeOuttrue{
+    width: 640px;
+    top: 50%;
+    left: -10px;
+    border-bottom: 3px solid $green1;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(0.01turn);
+  }
+  .leftWrap{
+    width: 68%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    }
+  .task{
+    width: 100%;
+  }
+  .taskText{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .done{
+    text-decoration: line-through;
+  }
+  .rightWrap{
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    align-items: center;
+  }
+  .daysLeft{
+    line-height: 16px;
+    // padding: 6px 0;
+    height: fit-content;
+  }
+  .daysLeftText{
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    &.superimportant{
+     color: $superImportant;
+    }
+    &.important{
+      color: $important;
+    }
+    &.needstobedone{
+      color: $needstobedone;
+    }
+    &.couldwait{
+      color: $couldwait
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.welcome {
+  width: 620px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 20px auto;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: rgb(84, 25, 51);
+  border-radius: 8px;
+  color: white;
+}
+.welcome span {
+  margin: 0 3px;
+  font-weight: 700;
+  font-size: 18px;
+}/*# sourceMappingURL=welcome.css.map */

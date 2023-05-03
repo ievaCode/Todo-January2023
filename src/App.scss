@@ -1,0 +1,27 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  color: rgb(58, 27, 39);
+  letter-spacing: 16px;
+  margin: 10vh 0 20px 0;
+  text-align: center;
+  font-weight: 900;
+}
+
+.taskCardsWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+

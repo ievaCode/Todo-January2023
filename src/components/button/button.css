@@ -1,0 +1,20 @@
+.button {
+  height: fit-content;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px rgb(110, 110, 110);
+}
+
+.doneButton {
+  background-color: rgb(170, 188, 193);
+}
+
+.editButton {
+  background-color: rgb(227, 227, 227);
+}
+
+.deleteButton {
+  background-color: rgb(227, 227, 227);
+}/*# sourceMappingURL=button.css.map */
